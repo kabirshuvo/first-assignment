@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Work Sans" sans-serif;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+header h1 {
+  position: absolute;
+  top: 216px;
+  right: 15%;
+  width: 525px;
+  height: 228px;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  font-family: "work Sans";
+  font-style: normal;
+  font-weight: 700;
+}
+header p {
+  position: absolute;
+  right: 15%;
+  top: 468px;
+  width: 494px;
+  height: 78px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+}
+header button {
+  position: absolute;
+  top: 599px;
+  right: 15%;
+  position: absolute;
+  width: 170px;
+  height: 64px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  background: #f15b22;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
