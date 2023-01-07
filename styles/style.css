@@ -115,7 +115,7 @@ header p {
 .failures-container {
   display: flex;
   margin: 0 auto;
-  gap: 50px;
+  gap: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -125,6 +125,7 @@ header p {
   justify-content: center;
 }
 .failures-container-text h2 {
+  width: 450px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -134,7 +135,7 @@ header p {
   padding: 50px 50px 10px 10px;
 }
 .failures-container-text p {
-  width: 416px;
+  width: 450px;
   height: 104px;
   font-style: normal;
   font-weight: 400;
@@ -265,7 +266,7 @@ header p {
   font-size: 40px;
   line-height: 47px;
   padding: 50px 50px 20px 30px;
-  color: #f15b22;
+  color: #ffffff;
 }
 .team-text p {
   width: 770px;
@@ -274,7 +275,7 @@ header p {
   font-weight: 400;
   font-size: 26px;
   line-height: 26px;
-  color: #e0d6d6;
+  color: #f3ebeb;
   padding: 10px 50px 30px 10px;
   text-align: center;
 }
@@ -284,10 +285,10 @@ header p {
   align-items: center;
   gap: 20%;
 }
-.team-btns{
+.team-btns {
   opacity: 25%;
 }
-.team-btns:hover{
+.team-btns:hover {
   opacity: 100%;
 }
 
