@@ -54,15 +54,15 @@ header p {
   line-height: 26px;
   text-align: right;
 }
+
+/* My Button and Buttons are Here*/
 /* btn-type1 I decided to named rather then prymari-btn */
 .btn-type1 {
   position: absolute;
   top: 599px;
   right: 15%;
-  position: absolute;
   width: 170px;
   height: 64px;
-  font-family: "Work Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -88,6 +88,21 @@ header p {
   text-align: center;
   color: #f15b22;
 }
+.team-btns {
+  width: 300px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  background: #f15b22;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 /* Hero Section Stle ends here */
 
 /* Failors container style starts from here */
@@ -130,11 +145,20 @@ header p {
 }
 .failures-container-text ul {
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 5px;
 }
 .failures-container-text li {
   padding: 3px;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+.failures-container-text li > img {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
 }
 
 /* Failors container style ends here */
@@ -216,6 +240,58 @@ header p {
   margin-left: 30px;
 }
 /* Motivation Section Ends Here */
+/* team Part Stars from here */
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1548705085-101177834f47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+  background-size: cover;
+  height: 60vh;
+  padding-top: 50px;
+  margin-top: 100px;
+  border-radius: 8px;
+}
+.team-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  padding: 50px 50px 20px 30px;
+  color: #f15b22;
+}
+.team-text p {
+  width: 770px;
+  height: 304px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  color: #e0d6d6;
+  padding: 10px 50px 30px 10px;
+  text-align: center;
+}
+.container-team-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20%;
+}
+.team-btns{
+  opacity: 25%;
+}
+.team-btns:hover{
+  opacity: 100%;
+}
+
+/* Team Part Ends Here */
 /* Main Part of the body also end with Motivation Part */
 /* Footer Section Starts from here */
 footer {
@@ -241,6 +317,17 @@ footer {
   line-height: 53px;
   color: #f8f8f8;
 }
+.social-icons {
+  display: flex;
+  gap: 5px;
+  width: 175px;
+  height: 46px;
+  padding-bottom: 50px;
+}
+.social-icons img {
+  width: 47px;
+  height: 46px;
+}
 .footer-right {
   display: flex;
   flex-direction: column;
@@ -263,3 +350,4 @@ footer {
   border-radius: 8px;
   color: #f3f3f3;
 }
+/* End of the Session */
