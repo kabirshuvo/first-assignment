@@ -74,6 +74,10 @@ header p {
   border-radius: 5px;
   padding: 5px;
 }
+.btn-type1:hover {
+  background-color: #ffffff;
+  color: #f15b22;
+}
 /* btn-type2 I decided to named rather then secondery-btn */
 .btn-type2 {
   background-color: #ffffff;
